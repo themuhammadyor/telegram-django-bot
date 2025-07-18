@@ -1,2 +1,2 @@
 web: gunicorn config.wsgi:application
-worker: python manage.py runbot
+worker: python run_bot.py
