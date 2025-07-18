@@ -1,2 +1,1 @@
-web: gunicorn config.wsgi:application
-worker: python run_bot.py
+web: honcho start -f Procfile.dev
